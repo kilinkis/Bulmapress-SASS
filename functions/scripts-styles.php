@@ -14,7 +14,6 @@ function bulmapress_scripts() {
 	//wp_enqueue_style( 'bulmapress-fontawesome', get_template_directory_uri() . '/frontend/fontawesome/css/font-awesome.min.css' );
 
 	wp_enqueue_style( 'bulmapress-bulma-style', get_template_directory_uri() . '/frontend/css/bulmapress.css' );
-	wp_enqueue_style( 'bulmapress-bulma-style', get_template_directory_uri() . '/frontend/sass/css/bulmapress.css' );
 
 	wp_enqueue_script( 'bulmapress-navigation', get_template_directory_uri() . '/frontend/js/navigation.js', array(), '20151215', true );
 
